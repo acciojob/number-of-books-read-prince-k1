@@ -24,7 +24,7 @@ const numberOfBooksRead = (libr) => {
 	let result=0;
 	for(int i=0; i<libr.length, i++){
 		if(libr.readingStatus=true){
-			result+=1;
+			result++;
 		}
 	}
 	return result;
