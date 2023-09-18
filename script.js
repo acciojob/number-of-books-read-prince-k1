@@ -22,11 +22,11 @@ const library = [
 const numberOfBooksRead = (libr) => {
   // write your code here
 	let result=0;
-	for(let i=0; i<libr.length, i++){
-		if(libr.readingStatus){
+	libr.forEach((book) => {
+		if(book.readingStatus){
 			result++;
 		}
-	}
+	})
 	return result;
 };
 
