@@ -23,7 +23,7 @@ const numberOfBooksRead = (libr) => {
   // write your code here
 	let result=0;
 	libr.forEach((book) => {
-		if(book.readingStatus == true){
+		if(book[readingStatus] == true){
 			result++;
 		}
 	})
